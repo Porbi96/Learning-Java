@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.porbi.javafxsimple.controllers.AppScreenController">
+   <children>
+      <Button layoutX="280.0" layoutY="328.0" mnemonicParsing="false" onAction="#backToMenuScreen" text="Back" />
+      <LineChart layoutX="128.0" layoutY="37.0" prefHeight="250.0" prefWidth="344.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+   </children>
+</Pane>

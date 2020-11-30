@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.porbi.javafxsimple.controllers.MenuScreenController">
+   <children>
+      <Button layoutX="281.0" layoutY="79.0" mnemonicParsing="false" onAction="#showAppScreen" text="App" />
+      <Button layoutX="271.0" layoutY="165.0" mnemonicParsing="false" onAction="#showOptionsScreen" text="Options" />
+      <Button layoutX="283.0" layoutY="251.0" mnemonicParsing="false" onAction="#exitApp" text="Exit" />
+   </children>
+</Pane>
